@@ -1,0 +1,32 @@
+doctype html
+html(lang="en-US")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title Ping Pong Cohort 8
+    link(href='https://fonts.googleapis.com/css?family=Poiret+One|PT+Sans+Narrow:400,700|Lobster|Alegreya:400italic,400,700' rel='stylesheet' type='text/css')
+    link(rel="stylesheet" href="css/main.css")
+
+  body
+    .login.hidden
+      h1 Please Login Or Register
+      form
+        .username
+          label Enter Username
+          input.userNameInput(type='text', name='username', placeholder='Username', required='required' )
+        .password
+          label Enter Password
+          input.userPasswordInput(type='password', name='password', placeholder='Password' required='required')
+        button.register Register
+        input.loginButton(type='submit', name='login', value='Login')
+    .app
+      .leaderboard
+      .queue
+      .buttonContainer
+        button.addToQueue.
+            ADD TO QUEUE
+        button.addWin.
+            ADD WIN
+        button.addLoss.
+            ADD LOSS

@@ -1,0 +1,16 @@
+{
+  "name": "pingpong-c8",
+  "version": "0.0.0",
+  "homepage": "https://github.com/edean11/pingpong-c8",
+  "authors": [
+    "Ed Dean <edean1010@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
